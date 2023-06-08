@@ -61,6 +61,10 @@ search.addEventListener('click', () => {
                     image.src = 'images/mist.gif';
                     break;
 
+                case 'Thunderstrom':
+                    image.src = 'images/thunder.gif';
+                    break;    
+
                 default:
                     image.src = '';
             }
